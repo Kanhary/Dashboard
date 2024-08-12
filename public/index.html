@@ -1,0 +1,217 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+      .hidden{
+        display: none;
+      }
+      .card1{
+        background-color: rgb(7 16 45);
+        background: linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+        background: -webkit-linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+      }
+    </style>
+  </head>
+  <body class="flex">
+
+    <div class="nav-side">
+      <!-- Nav1 -->
+      <div id="nav1" class="flex flex-col items-center w-16 h-screen overflow-hidden text-gray-400 bg-gray-900">
+        <a id="toggleNav2" class="flex items-center justify-center mt-3" href="#">
+          <img src="../Image/LOGO PPAP.png" alt="">
+        </a>
+        <div class="flex flex-col items-center mt-3 border-t border-gray-700">
+          <a class="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-gray-700 hover:text-gray-300" href="#">
+            <svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+          </a>
+          <a class="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-gray-700 hover:text-gray-300" href="#">
+            <i class="fa-solid fa-computer"></i>
+          </a>
+          <a class="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-gray-700 hover:text-gray-200" href="#">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+          </a>
+        </div>
+        <div class="flex flex-col items-center mt-2 border-t border-gray-700">
+          <a class="flex items-center justify-center w-12 h-12 mt-2 rounded hover:bg-gray-700 hover:text-gray-300" href="#">
+            <svg class="w-6 h-6 stroke-current"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+            </svg>
+          </a>
+        </div>
+        <a class="flex items-center justify-center w-16 h-16 mt-auto bg-gray-800 hover:bg-gray-700 hover:text-gray-300" href="#">
+          <svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </a>
+      </div>
+      
+      <!-- Nav2 -->
+      <div id="nav2" class="flex flex-col items-center hidden w-56 h-full overflow-hidden text-gray-400 bg-gray-900 rounded">
+        <a id="toggleNav1" class="flex items-center w-full px-3 mt-3 font-Khmer" href="#">
+          <img src="../Image/LOGO PPAP.png" class="w-8 h-8 fill-current" alt="">
+          <span class="ml-2 text-base font-Khmer">កំពង់ផែស្វយ័តភ្នំពេញ</span>
+        </a>
+        <div class="w-full px-2">
+          <div class="flex flex-col items-center w-full mt-3 border-t border-gray-700">
+            <a class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-300" href="#">
+              <svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+              <span class="ml-2 text-sm font-medium">Dasboard</span>
+            </a>
+            <a class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-300" href="#">
+              <i class="fa-solid fa-computer"></i>
+              <span class="ml-2 text-sm font-medium">Computer</span>
+            </a>
+            
+            <a class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-200" href="#">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <span class="ml-2 text-sm font-medium">Maintenace</span>
+            </a>
+          </div>
+          <div class="flex flex-col items-center w-full mt-2 border-t border-gray-700">
+            <a class="flex items-center w-full h-12 px-3 mt-2 rounded hover:bg-gray-700 hover:text-gray-300" href="#">
+              <svg class="w-6 h-6 stroke-current"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+              </svg>
+              <span class="ml-2 text-sm font-medium">Settings</span>
+            </a>
+          </div>
+        </div>
+        <a class="flex items-center justify-center w-full h-16 mt-auto bg-gray-800 hover:bg-gray-700 hover:text-gray-300" href="#">
+          <svg class="w-6 h-6 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span class="ml-2 text-sm font-medium">Account</span>
+        </a>
+      </div>
+
+    </div>
+    <div class="flex w-full p-4 space-x-4 max-sm:block ">
+        <div class="w-3/5 p-6 bg-white border border-gray-200 rounded-lg shadow-xl max-sm:w-full">
+            <!-- Header Section -->
+            <div class="flex items-center justify-between pb-2 mb-6 border-b border-gray-300">
+              <h2 class="text-2xl font-bold text-gray-800">Overview</h2>
+              <button class="px-4 py-2 text-sm font-semibold text-white transition bg-blue-500 rounded-lg hover:bg-blue-600">
+                Refresh Data
+              </button>
+            </div>
+            
+            <!-- Statistics Section -->
+            <div class="flex mb-6 space-x-4">
+              <!-- Total Computers -->
+              <div class="flex-1 p-4 text-center rounded-lg shadow-md bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100">
+                <h3 class="text-lg font-semibold text-gray-700">Total Computers</h3>
+                <p class="text-4xl font-extrabold text-gray-900">150</p>
+              </div>
+              <!-- Available -->
+              <div class="flex-1 p-4 text-center rounded-lg shadow-md bg-gradient-to-r from-green-100 via-teal-100 to-blue-100">
+                <h3 class="text-lg font-semibold text-gray-700">Available</h3>
+                <p class="text-4xl font-extrabold text-green-700">120</p>
+              </div>
+              <!-- In Use -->
+              <div class="flex-1 p-4 text-center rounded-lg shadow-md bg-gradient-to-r from-red-100 via-orange-100 to-yellow-100">
+                <h3 class="text-lg font-semibold text-gray-700">In Use</h3>
+                <p class="text-4xl font-extrabold text-red-700">30</p>
+              </div>
+            </div>
+          
+            <!-- Additional Information Section -->
+            <div>
+              <h3 class="pb-2 mb-4 text-xl font-semibold text-gray-800 border-b border-gray-300">Additional Information</h3>
+              <div class="space-y-4">
+                <!-- Info Item 1 -->
+                <div class="flex items-start p-4 border border-gray-200 rounded-lg shadow-sm bg-gray-50">
+                  <div class="flex-shrink-0 p-3 text-blue-600 bg-blue-100 rounded-full">
+                    
+                  </div>
+                  <div class="ml-4">
+                    <p class="text-lg font-medium text-gray-800">Last hardware update</p>
+                    <p class="text-sm text-gray-600">2 days ago</p>
+                  </div>
+                </div>
+                <!-- Info Item 2 -->
+                <div class="flex items-start p-4 border border-gray-200 rounded-lg shadow-sm bg-gray-50">
+                  <div class="flex-shrink-0 p-3 text-green-600 bg-green-100 rounded-full">
+                    
+                  </div>
+                  <div class="ml-4">
+                    <p class="text-lg font-medium text-gray-800">System health status</p>
+                    <p class="text-sm text-gray-600">Good</p>
+                  </div>
+                </div>
+                <!-- Info Item 3 -->
+                <div class="flex items-start p-4 border border-gray-200 rounded-lg shadow-sm bg-gray-50">
+                  <div class="flex-shrink-0 p-3 text-yellow-600 bg-yellow-100 rounded-full">
+                    
+                  </div>
+                  <div class="ml-4">
+                    <p class="text-lg font-medium text-gray-800">Upcoming maintenance</p>
+                    <p class="text-sm text-gray-600">Next week</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        <!-- Card 2: Recent Activities -->
+        <div class="w-2/5 p-6 bg-white border border-gray-200 rounded-lg shadow-lg max-sm:w-full">
+          <h2 class="mb-4 text-xl font-semibold">Recent Activities</h2>
+          <div class="space-y-4">
+            <!-- Activity 1 -->
+            <div class="p-4 border-l-4 border-blue-500 rounded-lg bg-blue-50">
+              <p class="font-medium text-blue-800 text-md">User 'Admin' logged in at 10:05 AM</p>
+              <p class="text-sm text-gray-600">Today, 10:05 AM</p>
+            </div>
+            <!-- Activity 2 -->
+            <div class="p-4 border-l-4 border-green-500 rounded-lg bg-green-50">
+              <p class="font-medium text-green-800 text-md">Maintenance task 'Backup System' added</p>
+              <p class="text-sm text-gray-600">Yesterday, 3:30 PM</p>
+            </div>
+            <!-- Activity 3 -->
+            <div class="p-4 border-l-4 border-yellow-500 rounded-lg bg-yellow-50">
+              <p class="font-medium text-yellow-800 text-md">RAM upgrade on PC-1234 completed</p>
+              <p class="text-sm text-gray-600">Yesterday, 11:45 AM</p>
+            </div>
+            <!-- Activity 4 -->
+            <div class="p-4 border-l-4 border-red-500 rounded-lg bg-red-50">
+              <p class="font-medium text-red-800 text-md">System Alert: Scheduled downtime</p>
+              <p class="text-sm text-gray-600">2 days ago, 5:00 PM</p>
+            </div>
+          </div>
+          <!-- View All Activities Button -->
+          <div class="mt-6 text-center">
+            <button class="px-4 py-2 font-semibold text-white transition bg-gray-800 rounded-lg hover:bg-gray-700">
+              View All Activities
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    
+    
+    
+    
+    <script>
+      document.getElementById('toggleNav1').addEventListener('click', function() {
+        document.getElementById('nav1').classList.remove('hidden');
+        document.getElementById('nav2').classList.add('hidden');
+      });
+
+      document.getElementById('toggleNav2').addEventListener('click', function() {
+        document.getElementById('nav1').classList.add('hidden');
+        document.getElementById('nav2').classList.remove('hidden');
+      });
+    </script>
+    
+  </body>
+</html>
